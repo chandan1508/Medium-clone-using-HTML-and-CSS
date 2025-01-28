@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Poppins", serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.search {
+  border: none;
+  border-radius: 28px;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.search i {
+  color: #757575;
+  font-size: 1.25rem;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.write {
+  font-size: 1.75rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #757575;
+}
+
+.write button {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #757575;
+}
+
+.sign-up button {
+  outline: none;
+  border: none;
+  background-color: green;
+  font-size: 0.75rem;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 28px;
+}
+
+.sign-in button {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #757575;
+}
+
+.account-icon {
+  font-size: 2rem;
+  color: #757575;
+  padding-right: 1rem;
+}
+
+.section_container {
+  max-width: 680px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.section_header h1 {
+  font-size: 2.5rem;
+}
+
+.author-info {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-name span {
+  color: green;
+}
+
+.author-date span {
+  color: #757575;
+}
+
+.author-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.action,
+.action-left,
+.action-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #757575;
+}
+
+.action {
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+  margin: 2rem 0;
+}
+
+.content-img {
+  max-width: 680px;
+}
+
+.content-img-detail {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #757575;
+}
+
+.content-img-detail span {
+  text-decoration: underline;
+}
+
+.content-para {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  font-weight: 400;
+  font-family: serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+/* .container-head {
+    padding-bottom: 2rem ;
+} */
+
+.dot {
+  text-align: center;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: #757575;
+  font-size: 0.75rem;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+
+.tags p{
+    border-radius: 28px;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+}

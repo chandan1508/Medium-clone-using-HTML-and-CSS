@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <div class="logo">Medium</div>
+          <div class="search">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="search" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="write">
+            <i class="ri-edit-box-line"></i>
+            <button>Write</button>
+          </div>
+          <div class="sign-up">
+            <button>Sign up</button>
+          </div>
+          <div class="sign-in">
+            <button>Sign in</button>
+          </div>
+          <div class="account-icon">
+            <i class="ri-account-circle-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="section_container section_header">
+      <h1>What Is the Difference Between Element and Node in DOM</h1>
+      <div class="author-info">
+        <img src="assets/img_avatar.png" alt="author photo" />
+        <div class="info">
+          <div class="author-name">Brandon Evans · <span>Follow</span></div>
+          <div class="author-date">
+            <span>Published in</span> Frontend Weekly
+            <span>· 2 min read · Mar 31, 2023</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="action">
+        <div class="action-left">
+          <div class="like"><i class="ri-heart-fill"></i> 13</div>
+          <div class="comment"><i class="ri-chat-1-line"></i> 1</div>
+        </div>
+        <div class="action-right">
+          <div class="save">
+            <i class="ri-bookmark-line"></i>
+          </div>
+          <div class="play">
+            <i class="ri-play-circle-line"></i>
+          </div>
+          <div class="share">
+            <i class="ri-share-2-line"></i>
+          </div>
+        </div>
+      </div>
+
+      <img class="content-img" src="assets/0_SuHL0lbZ8DGem1I0.webp" alt="" />
+
+      <div class="content-img-detail">
+        Photo by <span>Vadim Bozhko</span> on <span>Unsplash</span>
+      </div>
+
+      <p class="content-para">
+        When working with the Document Object Model (DOM) in JavaScript, you may
+        come across the terms “Element” and “Node”. While they may seem
+        interchangeable at first, there are some key differences between the
+        two.
+      </p>
+
+      <div class="dot">
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+      </div>
+
+      <div>
+        <h2 >Nodes in the DOM</h2>
+        <p class="content-para">
+          In the DOM, everything is a node. A node can be an element, attribute,
+          text, comment, document, or any other type of DOM object. Nodes are
+          organized in a tree-like structure, with the document node at the top
+          and all other nodes branching off from it. Nodes have properties and
+          methods that allow you to manipulate them and their child nodes. For
+          example, you can use the appendChild() method to add a child node to
+          an existing node.
+        </p>
+      </div>
+
+      <div>
+        <h2>Elements in the DOM</h2>
+        <p class="content-para">
+          Elements are a specific type of node that represents an HTML or XML
+          element. Elements have all the properties and methods of a node, but
+          they also have additional properties and methods that are specific to
+          elements. For example, elements have a tagName property that specifies
+          the name of the element, such as “div” or “span”. Elements also have
+          attributes, which can be accessed using the getAttribute() method or
+          by simply accessing the attribute as a property of the element.
+        </p>
+      </div>
+
+      <div>
+        <h2>The Difference Between Element and Node</h2>
+        <p class="content-para">
+          The main difference between Element and Node is that Element is a
+          specific type of Node that represents an HTML or XML element. While
+          all Elements are Nodes, not all Nodes are Elements. Another key
+          difference is that Elements have additional properties and methods
+          that are specific to elements. For example, elements have a childNodes
+          property that returns a NodeList of all the child nodes of the
+          element. Elements also have a parentElement property, which returns
+          the parent element of the current element. This property is equivalent
+          to the parentNode property, but it only returns elements and not other
+          types of nodes. Elements also have a tagName property that specifies
+          the name of the element. This property is read-only and cannot be
+          changed. Some methods and properties behave differently depending on
+          whether they are called on an Element or a Node. For example, the
+          insertBefore() method works differently when called on an Element
+          compared to when it’s called on a Node. When called on an Element, it
+          inserts the new node as a child of the current element before a
+          specified child node. When called on a Node, it inserts the new node
+          before the current node in the same parent node.
+        </p>
+      </div>
+
+      <div>
+        <h2>Conclusion</h2>
+        <p class="content-para">
+          In conclusion, understanding the differences between
+          Element and Node in the DOM is important for working effectively with
+          the document object model in JavaScript. Hope this helps you. Thanks
+          for reading! If you’re not yet a Medium member, consider becoming one
+          to support me here, which gives you unlimited access to everything on
+          Medium.
+        </p>
+      </div>
+
+      <div class="tags">
+         <p>JavaScript</p>
+         <p>Web Development</p>
+         <p>Front End Development</p>
+         <p>Programming</p>
+         <p>Software Engineering</p>
+      </div>
+    </section>
+    <footer>
+      <span>Help</span>
+
+      <span>Status</span>
+
+      <span>About</span>
+
+      <span>Careers</span>
+
+      <span>Press</span>
+
+      <span>Blog</span>
+
+      <span>Privacy</span>
+
+      <span>Terms</span>
+
+      <span>Text to speech</span>
+
+      <span>Teams</span>
+    </footer>
+  </body>
+</html>
